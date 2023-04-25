@@ -14,9 +14,6 @@ public class ComprobacionLetraDNI {
 
             boolean esCorrecto = comprobarLetraDNI(numeroDNI, letraDNI);
             System.out.println(esCorrecto);
-            // Comprobacion para que el resultado sea un boolean. 
-            //boolean esCorrecto = letra == letraDNIIntroducido;
-            //return esCorrecto;
 
     teclado.close();
     }
